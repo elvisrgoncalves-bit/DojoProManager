@@ -4,11 +4,14 @@ Aplicação em **PHP legado + HTML/CSS** para gestão de academias de artes marc
 
 ## Funcionalidades
 
-- Cadastro de academias.
-- Cadastro de instrutores.
-- Cadastro de alunos.
+- Painel inicial com indicadores.
+- Formulários separados por página:
+  - `academias.php`
+  - `instrutores.php`
+  - `alunos.php`
+  - `mensalidades.php`
+- Cadastro de academias, instrutores e alunos.
 - Lançamento e controle de mensalidades.
-- Painel de resumo com totais e valores em aberto.
 
 ## Requisitos
 
