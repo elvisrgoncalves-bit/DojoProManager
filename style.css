@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #d9d9d9;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #1d1d1d;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #888;
+    box-shadow: 2px 2px 0 #aaa;
+    padding: 18px;
+}
+
+header {
+    border-bottom: 2px solid #1a3f6d;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: #1a3f6d;
+    font-size: 28px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #15365c;
+}
+
+p {
+    margin-top: 6px;
+}
+
+.alerta {
+    background: #ebf6d8;
+    border: 1px solid #8ca55d;
+    padding: 8px;
+    margin-bottom: 14px;
+}
+
+.painel-resumo {
+    background: #f2f7fd;
+    border: 1px solid #96b0d1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+.bloco {
+    border: 1px solid #bcbcbc;
+    padding: 12px;
+    margin-bottom: 16px;
+    background: #fcfcfc;
+}
+
+.form-legado {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 8px 12px;
+    align-items: end;
+}
+
+.form-legado label {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    gap: 3px;
+}
+
+.form-legado input,
+.form-legado select {
+    border: 1px solid #9a9a9a;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.form-legado .check {
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    margin-top: 16px;
+}
+
+button {
+    width: max-content;
+    background: #1f4d82;
+    color: white;
+    border: 1px solid #153455;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #153455;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+table th,
+table td {
+    border: 1px solid #989898;
+    padding: 5px;
+    text-align: left;
+}
+
+table thead {
+    background: #d7e3f2;
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        width: 95%;
+    }
+
+    .form-legado {
+        grid-template-columns: 1fr;
+    }
+
+    .painel-resumo {
+        flex-direction: column;
+    }
+}
